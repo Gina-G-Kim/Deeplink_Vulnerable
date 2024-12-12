@@ -1,0 +1,7 @@
+2024-12-10 17:00:10 - Package Name: com.zhiliaoapp.musically
+2024-12-10 17:00:10 - Test URL: https://m.tiktok.com/redirect/webview?url=https%3A%2F%2Fwww.example.com
+2024-12-10 17:00:10 - Executing command: adb shell am start -W -a android.intent.action.VIEW -c android.intent.category.BROWSABLE -d "https://m.tiktok.com/redirect/webview?url=https%3A%2F%2Fwww.example.com"
+2024-12-10 17:00:13 - Launching app: adb shell monkey -p com.zhiliaoapp.musically -c android.intent.category.LAUNCHER 1
+2024-12-10 17:00:20 - ERROR: No dumpsys output collected
+2024-12-10 17:00:20 - ERROR: Could not find PID for com.zhiliaoapp.musically
+2024-12-10 17:00:22 - Analysis complete. Log file: D:\Projects\Deeplink_Vulnerable\andro_hunting-main\logs\analyze_log_20241210_170010.txt
